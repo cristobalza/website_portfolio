@@ -1,0 +1,371 @@
+/*======================================
+
+        Default Values
+
+Fonts: Poppins(title), Comfortaa (text)
+
+Color palette:
+
+Navbar - Rich Black FOGRA 39: #111111
+
+Background - Raisin Black: #1B1B1E
+Project Card Background - Smoky Black: #12130F
+
+Primary Text - Mint Cream: #f7fff7
+Secondary Text - Spanish Gray: #999999
+
+Netflix Red: #e50914
+Cinnabar Red: #e74c3c
+Dodger Blue: #3F9CFF
+
+Buttons:
+Primary - Azure: #007BFF
+Secondary - Slate Gray: #6C757D
+
+- You can see the above full color palette in the link below:
+https://coolors.co/e50914-e74c3c-3f9cff-f7fff7-1b1b1e-12130f-111111-999999-6c757d-007bff
+======================================
+
+        Additional Values
+
+UC Berkeley colors - https://brand.berkeley.edu/colors/
+California Gold: #FDB515
+Medalist: #C4820E
+
+Spotify colors - https://developer.spotify.com/branding-guidelines/
+https://colorswall.com/palette/186/
+Spotify Green: #1DB954
+
+
+======================================*/
+
+body {
+    font-family: 'Comfortaa', cursive;
+    color: #f7fff7;
+    background: #1B1B1E
+}
+
+li {
+    color: #999999
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+    display: inline-block;
+    position: relative;
+}
+
+h2::after {
+    content: '';
+    position: absolute;
+    left: 8%;
+    display: inline-block;
+    height: 1em;
+    width: 85%;
+    border-bottom: 3px solid;
+    margin-top: 5px;
+    color: #e50914;
+    margin-top: 10px;
+}
+
+
+/*------------------------------
+            Navbar
+------------------------------*/
+
+.navbar-brand {
+    font-size: 1.2rem
+}
+
+.nav-link {
+    font-size: 1rem;
+}
+
+.navbar-dark.bg-primary {
+    background-color: #111111 !important;
+}
+
+nav a:hover {
+    color: #e74c3c !important;
+}
+
+
+/*------------------------------
+            Hero
+------------------------------*/
+
+.hero-content {
+    color: #f7f7f7
+}
+
+.jumbotron {
+    background-image: url("../img/guillermo-ferla-QfLm-2AiJ_M-unsplash.jpg");
+    background-size: cover;
+    min-height: 200px;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #f7fff7
+}
+
+.hero-content h1 span {
+    color: #e50914
+}
+
+.hero-content p {
+    font-size: 1.1rem;
+    padding-top: 30px;
+    font-weight: 700;
+    /* color: #e74c3c */
+}
+
+.btn-main {
+    margin-top: 50px;
+    text-transform: uppercase;
+    margin: 30px;
+    padding: 15px 40px;
+    border: 2px solid #f7fff7;
+    border-radius: 15px;
+}
+
+.hero-content a {
+    /* color: #080708; */
+    transition: all .3s ease;
+    color: #f7fff7
+}
+
+.hero-content a.lead:hover {
+    background-color: #e74c3c;
+    border-radius: 25px;
+    border-color: #080708;
+    color: #f7fff7
+}
+
+a.quote-unsplash {
+    color: #6c757d
+}
+
+a.quote-unsplash:hover,
+a.quote-unsplash:active {
+    color: #999999
+}
+
+
+/*------------------------------
+            About
+------------------------------*/
+
+.alt-background-1 {
+    background: #342E37
+}
+
+.about img {
+    max-width: 400px;
+    border: 2px solid #e74c3c;
+    border-radius: 25px
+}
+
+.perfil {
+    padding-right: 90px
+}
+
+.about-list {
+    line-height: 1.7;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.section-heading {
+    text-transform: capitalize;
+    font-size: 2rem;
+}
+
+a.berkeley-color {
+    color: #C4820E
+}
+
+a.berkeley-color:hover,
+a.berkeley-color:active {
+    color: #FDB515
+}
+
+a.spotify-color {
+    color: #1DB954
+}
+
+a.spotify-color:hover,
+a.spotify-color:active {
+    color: #1ed760
+}
+
+
+/*------------------------------
+            Projects
+------------------------------*/
+
+.card-margin {
+    margin-bottom: 30px;
+}
+
+.title-margin-projects {
+    margin-bottom: 50px
+}
+
+.card-title {
+    color: #e74c3c
+}
+
+.borde {
+    border-radius: 25px!important;
+    /* background: #0D1F22!important */
+    /* background: #141204!important */
+    /* background: #001B2E!important */
+    /* background: #161032!important */
+    /* background: #1C0F13!important */
+    /* background: #00072D!important */
+    /* background: #003262!important */
+    /* background: #071108!important */
+    background: #12130F!important
+}
+
+.secondary-color {
+    color: #999999
+}
+
+.space-under-image {
+    margin-bottom: 20px;
+}
+
+
+/*------------------------------
+            Contact
+------------------------------*/
+
+input,
+textarea {
+    padding: .4rem 1rem;
+    width: 100%;
+    border: none;
+    background: #1B1B1E;
+    border-bottom: 2px solid #e74c3c;
+    color: #f7f7f7
+}
+
+label {
+    color: #999999
+}
+
+.email-me-1 a:hover {
+    color: #e50914
+}
+
+.contact button {
+    /* color: #080708; */
+    transition: all .3s ease;
+    color: #111111;
+    border-color: #080708;
+    background-color: #3F9CFF
+}
+
+.contact button:hover {
+    background-color: #e50914;
+    border-radius: 25px;
+    border-color: #080708;
+    color: #080708
+}
+
+.contact-link {
+    color: #3F9CFF
+}
+
+a.contact-link:hover,
+a.contact-link:active {
+    color: #e50914
+}
+
+.tab {
+    text-indent: 20px
+}
+
+
+/*------------------------------
+           Back to Top
+------------------------------*/
+
+.backtotop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    display: block;
+    cursor: pointer;
+    transition: all .5s linear;
+    width: 60px;
+    height: 60px;
+    background-color: #e50914;
+    border-radius: 50%;
+    box-shadow: 1px 1px 15px -3px #080708;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.backtotop div {
+    border: solid #eaeaea;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 6px;
+    transform: rotate(-135deg);
+}
+
+.hidden {
+    display: none;
+}
+
+
+/* html {
+    scroll-behavior: smooth;
+} */
+
+
+/*------------------------------
+            Footer
+------------------------------*/
+
+
+/* footer {
+    padding: 50px 0
+} */
+
+.social {
+    text-align: right
+}
+
+.social ul {
+    margin: 5px 0 0 0;
+    padding: 0
+}
+
+.social li {
+    display: inline-block;
+    font-size: 1.6em;
+    list-style: none
+}
+
+.social a {
+    display: block;
+    color: #f7fff7;
+    padding: 10px
+}
+
+.social a:hover {
+    color: #e74c3c
+}
