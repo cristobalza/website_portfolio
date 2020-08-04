@@ -249,13 +249,21 @@ a.spotify-color:active {
             Contact
 ------------------------------*/
 
-input,
-textarea {
+input {
     padding: .4rem 1rem;
     width: 100%;
     border: none;
     background: #1B1B1E;
     border-bottom: 2px solid #e74c3c;
+    color: #f7f7f7
+}
+
+textarea {
+    padding: .4rem 1rem;
+    width: 100%;
+    /* border: none; */
+    background: #1B1B1E;
+    border: 1px solid #e74c3c;
     color: #f7f7f7
 }
 
