@@ -250,21 +250,21 @@
             <p class="text-left tab">Or send me a message below &#x21B4;
             </p>
             <div class="row justify-content-center">
-                <form class="col-md-6 py-3">
+                <form action="https://formspree.io/xknqyqvk" method="POST" class="col-md-6 py-3">
                     <div class="form-input-group py-3">
                         <label>Your name:</label>
-                        <input type="text">
+                        <input type="text" name="name" required>
                     </div>
                     <div class="form-input-group py-3">
                         <label>Your Email:</label>
-                        <input type="text">
+                        <input type="email" name="_replyto" required>
                     </div>
                     <div class="form-input-group py-3">
                         <label>Your message:</label>
-                        <textarea></textarea>
+                        <textarea class="message" name="message"></textarea>
                     </div>
 
-                    <button class="btn-main  mx-auto d-block">Send</button>
+                    <button class="btn-main  mx-auto d-block" type="submit">Send</button>
 
                 </form>
             </div>
