@@ -117,7 +117,7 @@
             <div class="card text-white bg-dark mb-3 border-dark shadow-lg p-4 rounded borde">
                 <div class="row no-gutters">
                     <div class="col-md-6">
-                        <img src="img/bearmaps_screenshot.png" alt="Santiago's Accidents Screenshot" class="card-img" alt="...">
+                        <img src="img/bearmaps_screenshot.png" alt="Santiago's Accidents Screenshot" class="card-img image-borde" alt="...">
                     </div>
                     <div class="col-md-6">
                         <div class="card-body text-right">
@@ -155,7 +155,7 @@
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <img src="img/santiago_all_accidents_casualties.png" alt="Santiago's Accidents Screenshot" class="card-img" alt="...">
+                        <img src="img/santiago_all_accidents_casualties.png" alt="Santiago's Accidents Screenshot" class="card-img image-borde" alt="...">
                     </div>
                 </div>
             </div>
@@ -167,7 +167,7 @@
             <div class="card text-white bg-dark mb-3 border-dark shadow-lg p-4 rounded borde">
                 <div class="row no-gutters">
                     <div class="col-md-6">
-                        <img src="img/spotify_extraction.jpg" alt="Screenshot Spotify Song extractions" class="card-img" alt="...">
+                        <img src="img/spotify_extraction.jpg" alt="Screenshot Spotify Song extractions" class="card-img image-borde" alt="...">
 
                     </div>
                     <div class="col-md-6">
@@ -203,8 +203,8 @@
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <img src="img/spotify_distribution.png" alt="Distrbution of Dancebility feature songs" class="card-img space-under-image" alt="...">
-                        <img src="img/spotify_eigenvalues.png" alt="Principal Components evaluation" class="card-img" alt="...">
+                        <img src="img/spotify_distribution.png" alt="Distrbution of Dancebility feature songs" class="card-img space-under-image image-borde" alt="...">
+                        <img src="img/spotify_eigenvalues.png" alt="Principal Components evaluation" class="card-img image-borde" alt="...">
                     </div>
                 </div>
             </div>
@@ -216,7 +216,7 @@
             <div class="card text-white bg-dark mb-3 border-dark shadow-lg p-4 rounded borde">
                 <div class="row no-gutters">
                     <div class="col-md-6">
-                        <img src="img/newplot (1).png" alt="Santiago's Accidents Screenshot" class="card-img" alt="...">
+                        <img src="img/newplot (1).png" alt="Santiago's Accidents Screenshot" class="card-img image-borde" alt="...">
                     </div>
                     <div class="col-md-6">
                         <div class="card-body text-left">
@@ -252,16 +252,18 @@
             <div class="row justify-content-center">
                 <form action="https://formspree.io/xknqyqvk" method="POST" class="col-md-6 py-3">
                     <div class="form-input-group py-3">
+                        <!-- <label>Your name:</label>
+                        <input type="text" name="name" required> -->
                         <label>Your name:</label>
-                        <input type="text" name="name" required>
+                        <input class="md-textarea form-control name input-area-box" type="text" name="name" required></textarea>
                     </div>
                     <div class="form-input-group py-3">
                         <label>Your Email:</label>
-                        <input type="email" name="_replyto" required>
+                        <input class="form-control message input-area-box" type="email" name="_replyto" required>
                     </div>
                     <div class="form-input-group py-3">
                         <label>Your message:</label>
-                        <textarea class="message" name="message" rows="8" cols="80"></textarea>
+                        <textarea class="message form-control text-area-box" name="message" rows="10" cols="80" placeholder="Have a good day! :)" required></textarea>
                     </div>
 
                     <button class="btn-main  mx-auto d-block" type="submit">Send</button>

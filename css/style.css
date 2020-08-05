@@ -244,27 +244,55 @@ a.spotify-color:active {
     margin-bottom: 20px;
 }
 
+.image-borde {
+    border-radius: 22px
+}
+
 
 /*------------------------------
             Contact
 ------------------------------*/
 
-input {
-    padding: .4rem 1rem;
-    width: 100%;
-    border: none;
-    background: #1B1B1E;
-    border-bottom: 2px solid #e74c3c;
-    color: #f7f7f7
-}
-
-textarea {
+.input-area-box {
     padding: .4rem 1rem;
     width: 100%;
     /* border: none; */
-    background: #1B1B1E;
-    border: 1px solid #e74c3c;
+    border-radius: 25px;
+    background: #12130F;
+    border: 1px solid;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
+    border-color: #e74c3c;
     color: #f7f7f7
+}
+
+.input-area-box:focus {
+    color: #f7f7f7;
+    background-color: #12130F;
+    border: 3px solid;
+    border-color: #e50914;
+    outline: 0;
+    box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .25)
+}
+
+.text-area-box {
+    padding: .4rem 1rem;
+    width: 100%;
+    /* border: none; */
+    border-radius: 18px;
+    background: #12130F;
+    border: 1px solid;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
+    border-color: #e74c3c;
+    color: #f7f7f7
+}
+
+.text-area-box:focus {
+    color: #f7f7f7;
+    background-color: #12130F;
+    border: 3px solid;
+    border-color: #e50914;
+    outline: 0;
+    box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .25)
 }
 
 label {
@@ -301,41 +329,6 @@ a.contact-link:active {
 
 .tab {
     text-indent: 20px
-}
-
-
-/*------------------------------
-           Back to Top
-------------------------------*/
-
-.backtotop {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    z-index: 1000;
-    display: block;
-    cursor: pointer;
-    transition: all .5s linear;
-    width: 60px;
-    height: 60px;
-    background-color: #e50914;
-    border-radius: 50%;
-    box-shadow: 1px 1px 15px -3px #080708;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.backtotop div {
-    border: solid #eaeaea;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: 6px;
-    transform: rotate(-135deg);
-}
-
-.hidden {
-    display: none;
 }
 
 
