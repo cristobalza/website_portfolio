@@ -307,15 +307,17 @@ label {
     /* color: #080708; */
     transition: all .3s ease;
     color: #111111;
-    border-color: #080708;
+    border-color: #12130F;
+    border: 1px solid;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
     background-color: #3F9CFF
 }
 
 .contact button:hover {
     background-color: #e50914;
     border-radius: 25px;
-    border-color: #080708;
-    color: #080708
+    border-color: #12130F;
+    color: #12130F
 }
 
 .contact-link {
