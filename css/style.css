@@ -95,6 +95,11 @@ nav a:hover {
     color: #e74c3c !important;
 }
 
+.logo-image {
+    width: 35px;
+    height: 35px;
+}
+
 
 /*------------------------------
             Hero
