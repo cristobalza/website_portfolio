@@ -147,11 +147,6 @@ nav a:hover {
     color: #f7fff7
 }
 
-p.sub-hero {
-    color: #f7fff7;
-    font-family: 'Poppins', sans-serif;
-}
-
 .hero-content a.lead:hover {
     background-color: #e74c3c;
     border-radius: 25px;
@@ -256,6 +251,11 @@ a.spotify-color:active {
 
 .image-borde {
     border-radius: 22px
+}
+
+h5.project-title {
+    color: #e50914;
+    font-family: 'Poppins', sans-serif;
 }
 
 
