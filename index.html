@@ -8,8 +8,8 @@
     <!-- Fonts -->
     <link rel="stylesheet" href="./css/fonts_google.css">
     <!-- <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;515;600;700&family=Montserrat&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">  -->
-    <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback" async defer>
-    </script>
+    <script src="https://www.google.com/recaptcha/api.js?onload=recaptchaCallback&render=explicit&hl=iw" async defer></script>
+
     <!-- Bootstrap 4 -->
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <!-- Style -->
@@ -405,6 +405,17 @@
                         <label>Your message:</label>
                         <textarea class="message form-control text-area-box" name="message" rows="10" cols="80" placeholder="Have a good day! :)" required></textarea>
                     </div>
+                    <script type="text/javascript">
+                        var recaptchaCallback = function() {
+                            console.log('recaptcha is ready'); // showing
+                            grecaptcha.render("recaptcha", {
+                                sitekey: 'SITE_KEY',
+                                callback: function() {
+                                    console.log('recaptcha callback');
+                                }
+                            });
+                        }
+                    </script>
                     <div class="g-recaptcha" data-sitekey="%KEY_1%"></div>
 
                     <button class="btn-main  mx-auto d-block" type="submit">Send</button>
@@ -468,11 +479,11 @@
     <script src="./js/jquery-3.2.1.min.js"></script>
     <script src="./js/popper.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
         var onloadCallback = function() {
             alert("grecaptcha is ready!");
         };
-    </script>
+    </script> -->
 
     <!-- <script src="./js/script.js"></script> -->
 </body>
