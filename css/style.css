@@ -358,6 +358,10 @@ a.contact-link:active {
     padding: 50px 0
 } */
 
+footer.small-text {
+    font-size: 4px;
+}
+
 .social {
     text-align: right
 }
