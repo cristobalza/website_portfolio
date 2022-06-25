@@ -175,8 +175,50 @@ a.quote-unsplash:active {
 
 .about img {
     max-width: 400px;
-    border: 2px solid #e74c3c;
-    border-radius: 25px
+    /* border: 2px solid #e74c3c; */
+    border-radius: 25px;
+    border-color: #f8f9fa !important; 
+    box-shadow: 0 0 30px 0 rgba(248, 249, 250, 1);
+    
+} 
+
+.glow::before,
+.glow::after {
+  content: "";
+  position: absolute;
+  left: -2px;
+  top: -2px;
+  background: linear-gradient(
+    -45deg,
+    #1DB954,
+    #3F9CFF,
+    #C4820E,
+    #e50914,
+    #FDB515
+  );
+  background-size: 400%;
+  height: calc(100% + 5px);
+  width: calc(100% + 5px);
+  z-index: -1;
+  animation: change 60s linear infinite;
+  border-radius: 25px!important;
+}
+
+@keyframes change{
+   0%{
+      background-position: 0 0;
+   }
+   50%{
+      background-position: 400% 0;
+   }
+   100%{
+      background-position: 0 0;
+   }
+}
+
+.glow::after{
+   filter: blur(40px);
+   opacity: .5;
 }
 
 .perfil {
