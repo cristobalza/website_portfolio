@@ -261,6 +261,9 @@ a.spotify-color:active {
 
 .card-margin {
     margin-bottom: 30px;
+    border-color: #f8f9fa !important; 
+    box-shadow: 0 0 30px 0 rgba(248, 249, 250, 1);
+    /* https://codepen.io/kennethmcaple/pen/JjdboaO */
 }
 
 .title-margin-projects {
@@ -268,7 +271,7 @@ a.spotify-color:active {
 }
 
 .card-title {
-    color: #e74c3c
+    color: #e74c3c;
 }
 
 .borde {
