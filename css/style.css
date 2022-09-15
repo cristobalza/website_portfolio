@@ -42,7 +42,9 @@ Spotify Green: #1DB954
 body {
     font-family: 'Comfortaa', cursive;
     color: #f7fff7;
-    background: #1B1B1E
+    background: #1B1B1E;
+    /* background-image: url("../img/layered-waves-haikei.svg"); */
+    overflow-x: hidden;
 }
 
 li {
@@ -107,11 +109,12 @@ nav a:hover {
 ------------------------------*/
 
 .hero-content {
-    color: #f7f7f7
+    color: #f7f7f7;
+    background-image: url("../img/layered-waves-haikei1.svg");
 }
 
 .jumbotron {
-    background-image: url("../img/guillermo-ferla-QfLm-2AiJ_M-unsplash.jpg");
+    /* background-image: url("../img/layered-waves-haikei\ \(1\).svg");  */
     background-size: cover;
     /* min-height: 200px; */
     min-height: 700px;
@@ -178,8 +181,8 @@ a.quote-unsplash:active {
     max-width: 400px;
     /* border: 2px solid #e74c3c; */
     border-radius: 25px;
-    /* border-color: #f8f9fa !important; */
-    /* box-shadow: 0 0 30px 0 rgba(248, 249, 250, 1); */
+    border-color: #f8f9fa !important;
+    box-shadow: 0 0 30px 0 rgba(248, 249, 250, 1);
 }
 
 .glow::before,
