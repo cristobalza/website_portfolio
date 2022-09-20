@@ -111,7 +111,7 @@ nav a:hover {
 .hero-content {
     color: #f7f7f7;
     /* background: #1B1B1E; */
-    background-image: url("../img/layered-waves-haikei\ \(6\).svg");
+    background-image: url("../img/layerss.svg");
 }
 
 .spacer {
@@ -136,18 +136,19 @@ nav a:hover {
 .hero-content h1 {
     font-size: 3rem;
     font-weight: 700;
-    color: #f7fff7
+    /* color: #f7fff7 */
+    color: #080708;
 }
 
 .hero-content h1 span {
-    color: #003262
+    color: #e50914
 }
 
 .hero-content p {
     font-size: 1.1rem;
     padding-top: 30px;
     font-weight: 700;
-    /* color: #e74c3c */
+    color: #e74c3c
 }
 
 .btn-main {
@@ -155,18 +156,19 @@ nav a:hover {
     text-transform: uppercase;
     margin: 30px;
     padding: 15px 40px;
-    border: 2px solid #f7fff7;
+    border: 2px solid #080708;
     border-radius: 15px;
 }
 
 .hero-content a {
-    /* color: #080708; */
+    color: #080708;
     transition: all .3s ease;
-    color: #f7fff7
+    /* color: #f7fff7 */
 }
 
 .hero-content a.lead:hover {
-    background-color: #3F9CFF;
+    /* background-color: #3F9CFF; */
+    background-color: #e50914;
     border-radius: 25px;
     border-color: #080708;
     color: #f7fff7
@@ -462,10 +464,10 @@ footer.small-text {
 
 .social a {
     display: block;
-    color: #f7fff7;
+    color: #111111;
     padding: 10px
 }
 
 .social a:hover {
-    color: #3F9CFF
+    color: #e74c3c
 }
