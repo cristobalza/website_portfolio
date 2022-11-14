@@ -44,6 +44,12 @@ body {
     color: #f7fff7;
     background: #1B1B1E;
     /* background-image: url("../img/layered-waves-haikei.svg"); */
+    /* overflow-x: hidden; */
+    position: relative;
+}
+
+body,
+html {
     overflow-x: hidden;
 }
 
@@ -447,6 +453,19 @@ footer.small-text {
     font-size: 4px;
 }
 
+.resize {
+    width: 100%;
+    height: center;
+}
+
+@media screen and (max-width:480px) {
+    .resize {
+        width: 300px;
+        height: auto;
+        margin-left: 35px;
+    }
+}
+
 .social {
     text-align: right
 }
@@ -464,10 +483,31 @@ footer.small-text {
 
 .social a {
     display: block;
-    color: #111111;
+    color: #1B1B1E;
     padding: 10px
 }
 
 .social a:hover {
+    color: #e74c3c
+}
+
+.social ul {
+    margin: 5px 0 0 0;
+    padding: 0
+}
+
+.social_footer_icons li {
+    display: inline-block;
+    font-size: 1.6em;
+    list-style: none
+}
+
+.social_footer_icons a {
+    display: block;
+    color: #f7fff7;
+    padding: 10px
+}
+
+.social_footer_icons a:hover {
     color: #e74c3c
 }
