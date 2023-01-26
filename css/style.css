@@ -117,7 +117,7 @@ nav a:hover {
 .hero-content {
     color: #f7f7f7;
     /* background: #1B1B1E; */
-    background-image: url("../img/layerss.svg");
+    background-image: url("../img/max-mckinnon-c9OCWLka764.jpg");
 }
 
 .spacer {
@@ -143,7 +143,7 @@ nav a:hover {
     font-size: 3rem;
     font-weight: 700;
     /* color: #f7fff7 */
-    color: #080708;
+    color: #FDB515;
 }
 
 .hero-content h1 span {
@@ -162,12 +162,12 @@ nav a:hover {
     text-transform: uppercase;
     margin: 30px;
     padding: 15px 40px;
-    border: 2px solid #080708;
+    border: 2px solid #FDB515;
     border-radius: 15px;
 }
 
 .hero-content a {
-    color: #080708;
+    color: #FDB515;
     transition: all .3s ease;
     /* color: #f7fff7 */
 }
@@ -176,7 +176,7 @@ nav a:hover {
     /* background-color: #3F9CFF; */
     background-color: #e50914;
     border-radius: 25px;
-    border-color: #080708;
+    border-color: #f7fff7;
     color: #f7fff7
 }
 
@@ -484,12 +484,12 @@ footer.small-text {
 
 .social a {
     display: block;
-    color: #1B1B1E;
+    color: #FDB515;
     padding: 10px
 }
 
 .social a:hover {
-    color: #e74c3c
+    color: #e50914
 }
 
 .social ul {
@@ -510,5 +510,5 @@ footer.small-text {
 }
 
 .social_footer_icons a:hover {
-    color: #e74c3c
+    color: #e50914
 }
